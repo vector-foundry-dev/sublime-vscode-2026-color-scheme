@@ -1,0 +1,99 @@
+{
+  "name": "VS Code 2026 Dark",
+  "author": "Vector Foundry",
+  "variables": {
+    "comment": "#8b949e",
+    "red": "#ff7b72",
+    "blue": "#79c0ff",
+    "orange": "#ffa657",
+    "light_gray": "#c9d1d9",
+    "purple": "#d2a8ff",
+    "green": "#7ee787",
+    "light_blue": "#a5d6ff",
+    "invalid": "#ffa198"
+  },
+  "globals": {
+    "background": "#191A1B",
+    "foreground": "#bfbfbf",
+    "caret": "#53A5CA",
+    "line_highlight": "#242526",
+    "selection": "#3994BC40",
+    "selection_border": "#3994BC",
+    "inactive_selection": "#2C2D2E",
+    "find_highlight": "#3994BCF0",
+    "guide": "#333536",
+    "active_guide": "#555555",
+    "shadow": "#191B1D4D"
+  },
+  "rules": [
+    {
+      "name": "Comments",
+      "scope": "comment, punctuation.definition.comment, string.comment",
+      "foreground": "var(comment)"
+    },
+    {
+      "name": "Constants, Placeholders",
+      "scope": "constant.other.placeholder, constant.character, constant, entity.name.constant, variable.other.constant, variable.other.enummember, variable.language",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "Keywords, Storage",
+      "scope": "keyword, storage, storage.type, punctuation.section.embedded",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "Variables, Exports",
+      "scope": "entity.name, meta.export.default, meta.definition.variable, variable",
+      "foreground": "var(orange)"
+    },
+    {
+      "name": "Functions",
+      "scope": "entity.name.function",
+      "foreground": "var(purple)"
+    },
+    {
+      "name": "Tags, Classes",
+      "scope": "entity.name.tag, support.class.component, string.regexp constant.character.escape",
+      "foreground": "var(green)"
+    },
+    {
+      "name": "Strings, Regex, Links",
+      "scope": "string, string punctuation.section.embedded source, source.regexp, string.regexp, constant.other.reference.link, string.other.link",
+      "foreground": "var(light_blue)"
+    },
+    {
+      "name": "Support, Property Names",
+      "scope": "support, meta.property-name, string variable, support.constant, support.variable",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "Parameters, Block/Object members",
+      "scope": "variable.parameter.function, meta.jsx.children, meta.block, meta.tag.attributes, meta.object.member, meta.embedded.expression, variable.other, storage.modifier, storage.type.java",
+      "foreground": "var(light_gray)"
+    },
+    {
+      "name": "Invalid, Deprecated, Errors",
+      "scope": "invalid, message.error, brackethighlighter.unmatched",
+      "foreground": "var(invalid)",
+      "font_style": "italic"
+    },
+    {
+      "name": "Markup Headings",
+      "scope": "markup.heading, markup.heading entity.name",
+      "foreground": "var(blue)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markup Inserted (Git)",
+      "scope": "markup.inserted, meta.diff.header.to-file, punctuation.definition.inserted",
+      "foreground": "var(green)",
+      "background": "#04260f"
+    },
+    {
+      "name": "Markup Deleted (Git)",
+      "scope": "markup.deleted, meta.diff.header.from-file, punctuation.definition.deleted",
+      "foreground": "var(invalid)",
+      "background": "#490202"
+    }
+  ]
+}
