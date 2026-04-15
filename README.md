@@ -1,5 +1,7 @@
 # VS Code 2026 Dark - Sublime Text
 
+<img src="https://github.com/user-attachments/assets/1ae488a1-4e29-49d4-8d63-a14a8f1c2598" width="100%" />
+
 The modern VS Code 2026 Dark aesthetic, ported cleanly to Sublime Text.
 
 *Note: This package strictly provides a `.sublime-color-scheme` to ensure maximum stability across operating systems. It does not force UI theme engine overrides.*
