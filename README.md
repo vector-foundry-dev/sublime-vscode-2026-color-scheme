@@ -1,6 +1,6 @@
 # VS Code 2026 Color Scheme - Sublime Text
 
-<img src="https://github.com/user-attachments/assets/1ae488a1-4e29-49d4-8d63-a14a8f1c2598" width="100%" />
+<img src="https://github.com/user-attachments/assets/2b6e3b88-1c91-48b1-8b05-ae2ed746f107" width="100%" />
 
 The modern VS Code 2026 aesthetic — both Dark and Light variants — ported cleanly to Sublime Text.
 
