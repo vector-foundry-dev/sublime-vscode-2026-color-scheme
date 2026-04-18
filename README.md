@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/2b6e3b88-1c91-48b1-8b05-ae2ed746f107" width="100%" />
 
-The modern VS Code 2026 aesthetic — both Dark and Light variants — ported cleanly to Sublime Text.
+The modern VS Code 2026 aesthetic, both Dark and Light variants, ported cleanly to Sublime Text.
 
 *Note: This package strictly provides `.sublime-color-scheme` files to ensure maximum stability across operating systems. It does not force UI theme engine overrides.*
 
